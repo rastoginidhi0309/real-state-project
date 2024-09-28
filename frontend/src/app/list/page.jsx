@@ -199,7 +199,7 @@ const ListProduct = () => {
                                 >
                                     <div className="aspect-w-16 aspect-h-10">
                                         <img
-                                            className="w-full rounded-xl h-40 object-contain"
+                                            className="w-full rounded-xl h-60 object-cover"
                                             src={property.image}
                                             alt="Blog Image"
                                         />
@@ -207,6 +207,7 @@ const ListProduct = () => {
                                     <h3 className="mt-5 text-xl text-gray-800 dark:text-neutral-300 dark:hover:text-white">
                                         {property.name}
                                     </h3>
+                                    <p>{property.address}</p>
                                     <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-neutral-200">
                                         Learn more
                                         <svg
