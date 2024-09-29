@@ -13,7 +13,7 @@ const ViewDetails = () => {
   return (
     <div className='max-w-[80%] mx-auto mt-5'>
 
-        <h1 className='text-center my-8 font-bold text-3xl'>Property Details</h1>
+      <h1 className='text-center my-8 font-bold text-3xl'>Property Details</h1>
 
       {
         propertyDetails !== null ? (
@@ -58,10 +58,10 @@ const ViewDetails = () => {
 
 
               </div>
-                <div className='mt-4'>
-                  <h4 className='font-bold'>Price</h4>
-                  <p className='text-xl'>₹ {propertyDetails.price}</p>
-                </div>
+              <div className='mt-4'>
+                <h4 className='font-bold'>Price</h4>
+                <p className='text-xl'>₹ {propertyDetails.price}</p>
+              </div>
             </div>
 
           </div>
