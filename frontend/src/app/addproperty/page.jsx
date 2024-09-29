@@ -61,10 +61,10 @@ const AddProperty = () => {
                 <div className="bg-white rounded-xl shadow p-4 sm:p-7 dark:bg-neutral-800">
                     <div className="mb-8">
                         <h2 className="text-xl font-bold text-gray-800 dark:text-neutral-200">
-                            Profile
+                            Add New Property
                         </h2>
                         <p className="text-sm text-gray-600 dark:text-neutral-400">
-                            Manage your name, password and account settings.
+                            Fill in the details of the property you want to add.
                         </p>
                     </div>
                     <form onSubmit={propertyForm.handleSubmit}>
@@ -79,7 +79,7 @@ const AddProperty = () => {
                             <div className="sm:col-span-9">
                                 <div className="flex items-center gap-5">
                                     <img
-                                        className="inline-block size-16 rounded-full ring-2 ring-white dark:ring-neutral-900"
+                                        className="inline-block size-16 ring-2 ring-white dark:ring-neutral-900"
                                         src={previewUrl || "https://preline.co/assets/img/160x160/img1.jpg"}
                                         alt="Avatar"
                                     />

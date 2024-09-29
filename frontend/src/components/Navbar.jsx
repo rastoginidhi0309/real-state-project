@@ -148,7 +148,7 @@ const Navbar = () => {
                                         </Link>
                                         <Link
                                             className="p-2 flex items-center text-sm text-gray-800 hover:bg-gray-100 rounded-lg focus:outline-none focus:bg-gray-100 dark:text-neutral-200 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
-                                            href="/add-property"
+                                            href="/addproperty"
                                         >
                                             <svg
                                                 className="shrink-0 size-4 me-3 md:me-2 block md:hidden"
