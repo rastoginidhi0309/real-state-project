@@ -1,7 +1,12 @@
 'use client';
 import React from 'react'
 
-const page = () => {
+
+
+const Signup = () => {
+
+    // const 
+
     return (
         <div>
             <>
@@ -120,4 +125,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Signup
