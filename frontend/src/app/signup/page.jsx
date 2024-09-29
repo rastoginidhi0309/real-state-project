@@ -1,7 +1,10 @@
 'use client';
 import React from 'react'
 
-const page = () => {
+const Signup = () => {
+
+    const signupForm
+
     return (
         <div>
             <>
